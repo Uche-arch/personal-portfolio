@@ -1,0 +1,734 @@
+// import { ArrowUpRight } from "lucide-react";
+
+// export default function Projects() {
+//   return (
+//     <section
+//       id="projects"
+//       className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+//     >
+//       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-white/80 px-6 py-5 backdrop-blur-md md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-0 lg:w-auto lg:bg-transparent lg:px-0 lg:py-0 lg:backdrop-blur-none">
+//         <h2 className="text-sm font-bold uppercase tracking-widest text-zinc-950 lg:hidden">
+//           Projects
+//         </h2>
+//       </div>
+
+//       <div className="group/list mb-12">
+//         <div className=" group relative grid gap-4 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 px-4 py-5 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-xs text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-semibold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-medium text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-base group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   PropNetix
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+//             <p className="mt-2 text-xs leading-relaxed text-zinc-500 font-normal">
+//               Full-stack real estate listing platform that lets landlords and
+//               agents list properties, and helps people search and find listings
+//               — homes, shops, and vacant spaces — from anywhere. Built to solve
+//               a real problem: making property and space discovery simple and
+//               accessible instead of relying on word-of-mouth and guesswork.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {[
+//                 "Next.js",
+//                 "TypeScript",
+//                 "Tailwind CSS",
+//                 "MongoDB",
+//                 "shadcn/ui",
+//                 "Cloudinary",
+//                 "Kinde (Auth)",
+//               ].map((tech) => (
+//                 <li
+//                   key={tech}
+//                   className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium leading-5 text-zinc-800"
+//                 >
+//                   {tech}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+//       <div className="group/list mb-12">
+//         <div className="group relative grid gap-4 pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-xs text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-semibold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-medium text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-base group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   DevAcademy
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+//             <p className="mt-2 text-xs leading-relaxed text-zinc-500 font-normal">
+//               Structured learning platform that teaches frontend development
+//               through guided roadmaps instead of scattered tutorials. Covers
+//               HTML, CSS, responsive design, Flexbox, and Grid through real-world
+//               projects, with progress tracking to help beginners stay consistent
+//               and avoid tutorial hell.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {[
+//                 "Next.js",
+//                 "TypeScript",
+//                 "Tailwind CSS",
+//                 "shadcn/ui",
+//                 "Kinde (Auth)",
+//               ].map((tech) => (
+//                 <li
+//                   key={tech}
+//                   className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium leading-5 text-zinc-800"
+//                 >
+//                   {tech}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+//       <div className="group/list mb-12">
+//         <div className="group relative grid gap-4 pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-xs text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-semibold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-medium text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-base group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   CampusConnect
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+//             <p className="mt-2 text-xs leading-relaxed text-zinc-500 font-normal">
+//               Real-time random video chat app built for university students,
+//               inspired by the now-defunct Omegle. Connects users at random for
+//               spontaneous conversations with people outside their usual social
+//               circle, powered by WebRTC for peer-to-peer video and WebSockets
+//               for real-time matching.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {[
+//                 "Next.js",
+//                 "WebRTC",
+//                 "Tailwind CSS",
+//                 "WebSocket",
+//                 "shadcn/ui",
+//               ].map((tech) => (
+//                 <li
+//                   key={tech}
+//                   className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium leading-5 text-zinc-800"
+//                 >
+//                   {tech}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+//       <div className="group/list mb-12">
+//         <div className="group relative grid gap-4 pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-xs text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-semibold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-medium text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-base group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   Presence-Based Coaching Platform
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+//             <p className="mt-2 text-xs leading-relaxed text-zinc-500 font-normal">
+//               Brand and marketing site for a presence-based productivity
+//               coaching practice, built end-to-end from a custom design system to
+//               fully animated, content-driven pages. Focused on translating a
+//               specific brand voice into a polished, conversion-ready web
+//               presence.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {["Next.js", "Tailwind CSS", "shadcn/ui", "Framer"].map(
+//                 (tech) => (
+//                   <li
+//                     key={tech}
+//                     className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium leading-5 text-zinc-800"
+//                   >
+//                     {tech}
+//                   </li>
+//                 ),
+//               )}
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
+
+
+// import { ArrowUpRight } from "lucide-react";
+
+// export default function Projects() {
+//   return (
+//     <section
+//       id="projects"
+//       className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+//     >
+//       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-white/80 px-6 py-5 backdrop-blur-md md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-0 lg:w-auto lg:bg-transparent lg:px-0 lg:py-0 lg:backdrop-blur-none">
+//         <h2 className="text-sm font-bold uppercase tracking-widest text-zinc-950 lg:hidden">
+//           Projects
+//         </h2>
+//       </div>
+
+//       <div className="group/list mb-12 space-y-12">
+//         {/* PropNetix */}
+//         <div className="group relative grid gap-4 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 px-4 py-5 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-sm text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-bold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-semibold text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-lg group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   PropNetix
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+            
+//             {/* UPGRADED: text-base, high contrast text-zinc-600, and mt-3 */}
+//             <p className="mt-3 text-base leading-relaxed text-zinc-600 font-normal">
+//               Full-stack real estate listing platform that lets landlords and
+//               agents list properties, and helps people search and find listings
+//               — homes, shops, and vacant spaces — from anywhere. Built to solve
+//               a real problem: making property and space discovery simple and
+//               accessible instead of relying on word-of-mouth and guesswork.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {[
+//                 "Next.js",
+//                 "TypeScript",
+//                 "Tailwind CSS",
+//                 "MongoDB",
+//                 "shadcn/ui",
+//                 "Cloudinary",
+//                 "Kinde (Auth)",
+//               ].map((tech) => (
+//                 <li
+//                   key={tech}
+//                   className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-sm font-medium leading-5 text-zinc-800"
+//                 >
+//                   {tech}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+
+//         {/* DevAcademy */}
+//         <div className="group relative grid gap-4 pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-sm text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-bold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-semibold text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-lg group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   DevAcademy
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+            
+//             {/* UPGRADED: text-base, high contrast text-zinc-600, and mt-3 */}
+//             <p className="mt-3 text-base leading-relaxed text-zinc-600 font-normal">
+//               Structured learning platform that teaches frontend development
+//               through guided roadmaps instead of scattered tutorials. Covers
+//               HTML, CSS, responsive design, Flexbox, and Grid through real-world
+//               projects, with progress tracking to help beginners stay consistent
+//               and avoid tutorial hell.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {[
+//                 "Next.js",
+//                 "TypeScript",
+//                 "Tailwind CSS",
+//                 "shadcn/ui",
+//                 "Kinde (Auth)",
+//               ].map((tech) => (
+//                 <li
+//                   key={tech}
+//                   className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-sm font-medium leading-5 text-zinc-800"
+//                 >
+//                   {tech}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+
+//         {/* CampusConnect */}
+//         <div className="group relative grid gap-4 pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-sm text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-bold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-semibold text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-lg group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   CampusConnect
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+            
+//             {/* UPGRADED: text-base, high contrast text-zinc-600, and mt-3 */}
+//             <p className="mt-3 text-base leading-relaxed text-zinc-600 font-normal">
+//               Real-time random video chat app built for university students,
+//               inspired by the now-defunct Omegle. Connects users at random for
+//               spontaneous conversations with people outside their usual social
+//               circle, powered by WebRTC for peer-to-peer video and WebSockets
+//               for real-time matching.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {[
+//                 "Next.js",
+//                 "WebRTC",
+//                 "Tailwind CSS",
+//                 "WebSocket",
+//                 "shadcn/ui",
+//               ].map((tech) => (
+//                 <li
+//                   key={tech}
+//                   className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-sm font-medium leading-5 text-zinc-800"
+//                 >
+//                   {tech}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+
+//         {/* Presence-Based Coaching Platform */}
+//         <div className="group relative grid gap-4 pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 transition-all duration-300 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/70">
+//           <div className="sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-2 lg:order-1 aspect-[16/9] sm:aspect-auto flex items-center justify-center text-sm text-zinc-400 overflow-hidden font-medium">
+//             <span>Preview</span>
+//           </div>
+
+//           <div className="sm:col-span-6 sm:order-1 lg:order-2">
+//             <h3 className="font-bold leading-snug text-zinc-950">
+//               <a
+//                 href="https://github.com"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="inline-flex items-baseline font-semibold text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-lg group/link"
+//               >
+//                 <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                 <span>
+//                   Presence-Based Coaching Platform
+//                   <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                 </span>
+//               </a>
+//             </h3>
+            
+//             {/* UPGRADED: text-base, high contrast text-zinc-600, and mt-3 */}
+//             <p className="mt-3 text-base leading-relaxed text-zinc-600 font-normal">
+//               Brand and marketing site for a presence-based productivity
+//               coaching practice, built end-to-end from a custom design system to
+//               fully animated, content-driven pages. Focused on translating a
+//               specific brand voice into a polished, conversion-ready web
+//               presence.
+//             </p>
+
+//             <ul
+//               className="mt-4 flex flex-wrap gap-2"
+//               aria-label="Technologies used"
+//             >
+//               {["Next.js", "Tailwind CSS", "shadcn/ui", "Framer"].map(
+//                 (tech) => (
+//                   <li
+//                     key={tech}
+//                     className="flex items-center rounded-full bg-zinc-100 px-3 py-1 text-sm font-medium leading-5 text-zinc-800"
+//                   >
+//                     {tech}
+//                   </li>
+//                 ),
+//               )}
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
+
+
+// import { ArrowUpRight } from "lucide-react";
+
+// const projects = [
+//   {
+//     title: "PropNetix",
+//     description:
+//       "Full-stack real estate listing platform that lets landlords and agents list properties, and helps people search and find listings — homes, shops, and vacant spaces — from anywhere. Built to solve a real problem: making property and space discovery simple and accessible instead of relying on word-of-mouth and guesswork.",
+//     tech: [
+//       "Next.js",
+//       "TypeScript",
+//       "Tailwind CSS",
+//       "MongoDB",
+//       "shadcn/ui",
+//       "Cloudinary",
+//       "Kinde (Auth)",
+//     ],
+//     link: "https://github.com",
+//     imageText: "Preview",
+//   },
+//   {
+//     title: "DevAcademy",
+//     description:
+//       "Structured learning platform that teaches frontend development through guided roadmaps instead of scattered tutorials. Covers HTML, CSS, responsive design, Flexbox, and Grid through real-world projects, with progress tracking to help beginners stay consistent and avoid tutorial hell.",
+//     tech: [
+//       "Next.js",
+//       "TypeScript",
+//       "Tailwind CSS",
+//       "shadcn/ui",
+//       "Kinde (Auth)",
+//     ],
+//     link: "https://github.com",
+//     imageText: "Preview",
+//   },
+//   {
+//     title: "CampusConnect",
+//     description:
+//       "Real-time random video chat app built for university students, inspired by the now-defunct Omegle. Connects users at random for spontaneous conversations with people outside their usual social circle, powered by WebRTC for peer-to-peer video and WebSockets for real-time matching.",
+//     tech: ["Next.js", "WebRTC", "Tailwind CSS", "WebSocket", "shadcn/ui"],
+//     link: "https://github.com",
+//     imageText: "Preview",
+//   },
+//   {
+//     title: "Presence-Based Coaching Platform",
+//     description:
+//       "Brand and marketing site for a presence-based productivity coaching practice, built end-to-end from a custom design system to fully animated, content-driven pages. Focused on translating a specific brand voice into a polished, conversion-ready web presence.",
+//     tech: ["Next.js", "Tailwind CSS", "shadcn/ui", "Framer"],
+//     link: "https://github.com",
+//     imageText: "Preview",
+//   },
+// ];
+
+// export default function Projects() {
+//   return (
+//     <section
+//       id="projects"
+//       className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+//     >
+//       {/* Mobile Sticky Section Header */}
+//       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-white/80 px-6 py-5 backdrop-blur-md md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-0 lg:w-auto lg:bg-transparent lg:px-0 lg:py-0 lg:backdrop-blur-none">
+//         <h2 className="text-sm font-bold uppercase tracking-widest text-zinc-950 lg:hidden">
+//           Projects
+//         </h2>
+//       </div>
+
+//       <div className="group/list">
+//         {projects.map((project, index) => (
+//           <div
+//             key={index}
+//             className="group relative mb-12 grid gap-4 transition-all duration-300 sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/80 lg:hover:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.1)] lg:hover:drop-shadow-sm"
+//           >
+//             {/* Project Thumbnail / Preview Slot */}
+//             <div className="z-10 sm:col-span-2 rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-1 aspect-video sm:aspect-[4/3] flex items-center justify-center text-xs text-zinc-400 overflow-hidden font-medium group-hover:border-zinc-300">
+//               <span>{project.imageText}</span>
+//             </div>
+
+//             {/* Project Details */}
+//             <div className="sm:col-span-6 sm:order-2">
+//               <h3 className="font-semibold leading-snug text-zinc-950">
+//                 <a
+//                   href={project.link}
+//                   target="_blank"
+//                   rel="noreferrer"
+//                   className="inline-flex items-baseline font-medium text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-base group/link"
+//                 >
+//                   <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+//                   <span>
+//                     {project.title}
+//                     <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+//                   </span>
+//                 </a>
+//               </h3>
+
+//               <p className="mt-2 text-sm leading-relaxed text-zinc-600 font-normal">
+//                 {project.description}
+//               </p>
+
+//               <ul
+//                 className="mt-4 flex flex-wrap gap-1.5"
+//                 aria-label="Technologies used"
+//               >
+//                 {project.tech.map((tech) => (
+//                   <li
+//                     key={tech}
+//                     className="flex items-center rounded-full bg-zinc-100/90 px-3 py-1 text-xs font-medium leading-5 text-zinc-800"
+//                   >
+//                     {tech}
+//                   </li>
+//                 ))}
+//               </ul>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+
+//       {/* Optional: Brittany's Archive Link at the bottom */}
+//       <div className="mt-12">
+//         <a
+//           href="https://github.com"
+//           target="_blank"
+//           rel="noreferrer"
+//           className="inline-flex items-center font-semibold text-zinc-900 hover:text-zinc-950 group text-sm"
+//         >
+//           <span>View Full Project Archive</span>
+//           <ArrowUpRight className="ml-1 h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+//         </a>
+//       </div>
+//     </section>
+//   );
+// }
+
+import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
+
+interface Project {
+  title: string;
+  description: string;
+  tech: string[];
+  link: string;
+  image?: string; // Image path or URL (e.g., "/projects/propnetix.png")
+  imageAlt?: string;
+}
+
+const projects: Project[] = [
+  {
+    title: "PropNetix",
+    description:
+      "Full-stack real estate listing platform that lets landlords and agents list properties, and helps people search and find listings — homes, shops, and vacant spaces — from anywhere. Built to solve a real problem: making property and space discovery simple and accessible instead of relying on word-of-mouth and guesswork.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "shadcn/ui",
+      "Cloudinary",
+      "Kinde (Auth)",
+    ],
+    link: "https://propnetix.vercel.app/",
+    image: "/projects/propnetix.png", // Add your image path here in /public
+    imageAlt: "PropNetix real estate platform preview",
+  },
+  {
+    title: "DevAcademy",
+    description:
+      "Structured learning platform that teaches frontend development through guided roadmaps instead of scattered tutorials. Covers HTML, CSS, responsive design, Flexbox, and Grid through real-world projects, with progress tracking to help beginners stay consistent and avoid tutorial hell.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Kinde (Auth)",
+    ],
+    link: "https://devacademylms.vercel.app/",
+    image: "/projects/devacademy.png",
+    imageAlt: "DevAcademy learning platform preview",
+  },
+  {
+    title: "CampusConnect",
+    description:
+      "Real-time random video chat app built for university students, inspired by the now-defunct Omegle. Connects users at random for spontaneous conversations with people outside their usual social circle, powered by WebRTC for peer-to-peer video and WebSockets for real-time matching.",
+    tech: ["Next.js", "WebRTC", "Tailwind CSS", "WebSocket", "shadcn/ui"],
+    link: "https://vide-chat-app.vercel.app/",
+    image: "/projects/campusconnect.png",
+    imageAlt: "CampusConnect web app preview",
+  },
+  {
+    title: "Presence-Based Coaching Platform",
+    description:
+      "Brand and marketing site for a presence-based productivity coaching practice, built end-to-end from a custom design system to fully animated, content-driven pages. Focused on translating a specific brand voice into a polished, conversion-ready web presence.",
+    tech: ["Next.js", "Tailwind CSS", "shadcn/ui", "Framer"],
+    link: "https://tpmwebsite.vercel.app/",
+    image: "/projects/presencemethod.png",
+    imageAlt: "Presence-Based Coaching site preview",
+  },
+];
+
+export default function Projects() {
+  return (
+    <section
+      id="projects"
+      className="relative mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+    >
+      {/* Mobile Sticky Section Header */}
+      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-white/80 px-6 py-5 backdrop-blur-md md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-0 lg:w-auto lg:bg-transparent lg:px-0 lg:py-0 lg:backdrop-blur-none">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-zinc-950 lg:hidden">
+          Projects
+        </h2>
+      </div>
+
+      <div className="group/list">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="group relative mb-12 grid gap-4 transition-all duration-300 sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 -mx-4 p-4 rounded-lg lg:hover:bg-zinc-50/80 lg:hover:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.1)] lg:hover:drop-shadow-sm"
+          >
+            {/* Project Thumbnail Image Container */}
+            <div className="bg -red z-10 sm:col-span-2 relative rounded border border-zinc-200/80 bg-zinc-100 transition sm:order-1 aspect-video sm:aspect-[4/3] flex items-center justify-center text-xs text-zinc-400 overflow-hidden font-medium group-hover:border-zinc-300">
+              {project.image ? (
+                <Image
+                  src={project.image}
+                  alt={project.imageAlt || `${project.title} preview`}
+                  fill
+                  sizes="(max-width: 640px) 100vw, 200px"
+                  className="object-cover transition duration-300 group-hover:scale-105"
+                />
+              ) : (
+                <span>Preview</span>
+              )}
+            </div>
+
+            {/* Project Details */}
+            <div className="sm:col-span-6 sm:order-2">
+              <h3 className="font-semibold leading-snug text-zinc-950">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-baseline font-medium text-zinc-900 hover:text-zinc-950 focus-visible:text-zinc-950 text-base group/link"
+                >
+                  <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block"></span>
+                  <span>
+                    {project.title}
+                    <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform duration-200 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 ml-1" />
+                  </span>
+                </a>
+              </h3>
+
+              <p className="mt-2 text-sm leading-relaxed text-zinc-600 font-normal">
+                {project.description}
+              </p>
+
+              <ul
+                className="mt-4 flex flex-wrap gap-1.5"
+                aria-label="Technologies used"
+              >
+                {project.tech.map((tech) => (
+                  <li
+                    key={tech}
+                    className="flex items-center rounded-full bg-zinc-100/90 px-3 py-1 text-xs font-medium leading-5 text-zinc-800"
+                  >
+                    {tech}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Archive Link */}
+      <div className="mt-12">
+        <a
+          href="https://github.com/Uche-arch"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center font-semibold text-zinc-900 hover:text-zinc-950 group text-sm"
+        >
+          <span>View Full Project Archive</span>
+          <ArrowUpRight className="ml-1 h-4 w-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+        </a>
+      </div>
+    </section>
+  );
+}
