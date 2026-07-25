@@ -239,7 +239,7 @@ export default function Header({ activeSection }: HeaderProps) {
       >
         <li>
           <a
-            href="https://github.com"
+            href="https://github.com/Uche-arch"
             target="_blank"
             rel="noreferrer"
             className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
@@ -251,7 +251,7 @@ export default function Header({ activeSection }: HeaderProps) {
         </li>
         <li>
           <a
-            href="https://linkedin.com"
+            href="www.linkedin.com/in/uche-godswill-0a9532424"
             target="_blank"
             rel="noreferrer"
             className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
@@ -263,35 +263,36 @@ export default function Header({ activeSection }: HeaderProps) {
         </li>
         <li>
           <a
-            href="https://youtube.com"
+            href="https://web.facebook.com/profile.php?id=61592462423861"
             target="_blank"
             rel="noreferrer"
             className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
-            title="YouTube"
+            title="Facebook"
           >
-            <span className="sr-only">YouTube</span>
+            <span className="sr-only">Facebook</span>
             <FaFacebook className="h-5 w-5" />
           </a>
         </li>
         
+       
         <li>
           <a
-            href="mailto:your.email@example.com"
-            className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
-            title="Email"
-          >
-            <span className="sr-only">Email</span>
-            <FaXTwitter className="h-5 w-5" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:your.email@example.com"
+            href="mailto:godswilluche291@gmail.com"
             className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
             title="Email"
           >
             <span className="sr-only">Email</span>
             <FaEnvelope className="h-5 w-5" />
+          </a>
+        </li>
+         <li>
+          <a
+            href="https://x.com/Coder_Uche"
+            className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
+            title="Twitter"
+          >
+            <span className="sr-only">X</span>
+            <FaXTwitter className="h-5 w-5" />
           </a>
         </li>
       </ul>
