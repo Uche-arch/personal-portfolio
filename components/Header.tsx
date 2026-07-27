@@ -251,7 +251,7 @@ export default function Header({ activeSection }: HeaderProps) {
         </li>
         <li>
           <a
-            href="www.linkedin.com/in/uche-godswill-0a9532424"
+            href="https://linkedin.com/in/uche-godswill-0a9532424"
             target="_blank"
             rel="noreferrer"
             className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
@@ -290,6 +290,8 @@ export default function Header({ activeSection }: HeaderProps) {
             href="https://x.com/Coder_Uche"
             className="block text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
             title="Twitter"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="sr-only">X</span>
             <FaXTwitter className="h-5 w-5" />

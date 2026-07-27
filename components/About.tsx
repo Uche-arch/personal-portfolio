@@ -119,8 +119,8 @@ export default function About() {
       <div className="space-y-4 text-sm font-normal leading-relaxed text-zinc-600">
         <p>
           Hi there! I'm Uche, and I like building things that work as good as
-          they look. I'm a frontend engineer who cares about performance,
-          modularity, and accessibility in equal measure — I want interfaces
+          they look. I'm a full-stack engineer who cares about performance,
+          modularity, and accessibility in equal measure. I want interfaces and applications
           that are fast, easy to extend, and usable by everyone, not just the
           details that show up in a demo.
         </p>
@@ -136,9 +136,9 @@ export default function About() {
             Gopius E-Learning Services
           </a>
           , where I lead frontend development on our Learning Management System.
-          I'm responsible for building out the core product experience — from
+          I'm responsible for building out the core product experience, from
           course delivery to the everyday features that make an LMS actually
-          usable — working closely with the team to keep the codebase modular
+          usable, working closely with the team to keep the codebase modular
           and the UI consistent as the product grows.
         </p>
 
@@ -154,7 +154,7 @@ export default function About() {
           </a>
           , where I got my start building real products for real users. Outside
           of client and product work, I built a full real estate listing
-          platform from the ground up — handling everything from property
+          platform from the ground up, handling everything from property
           listings and search/filtering to a clean, responsive UI. That project,
           along with client work built end-to-end, has shaped how I think about
           building products that hold up under real use.

@@ -595,7 +595,7 @@ const projects: Project[] = [
   {
     title: "PropNetix",
     description:
-      "Full-stack real estate listing platform that lets landlords and agents list properties, and helps people search and find listings — homes, shops, and vacant spaces — from anywhere. Built to solve a real problem: making property and space discovery simple and accessible instead of relying on word-of-mouth and guesswork.",
+      "Full-stack real estate listing platform that lets landlords and agents list properties, and helps people search and find listings: homes, shops, and vacant spaces, from anywhere. Built to solve a real problem: making property and space discovery simple and accessible instead of relying on word-of-mouth and guesswork.",
     tech: [
       "Next.js",
       "TypeScript",
