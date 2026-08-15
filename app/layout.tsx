@@ -54,6 +54,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  // Correct location for Google Site Verification in Next.js App Router
+  verification: {
+    google: "YJKdRlnLHVoH0UlgiZ4_XNLuekD84PSUQ1FXv8zp8lA",
+  },
 };
 
 export default function RootLayout({
