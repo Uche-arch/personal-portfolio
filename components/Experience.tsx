@@ -72,7 +72,7 @@ export default function Experience() {
                 </a>
               </h3>
 
-              <p className="mt-2 text-sm leading-relaxed text-zinc-600 font-normal">
+              <p className="mt-2 text-[15px] leading-relaxed text-zinc-600 font-normal">
                 {exp.description}
               </p>
 

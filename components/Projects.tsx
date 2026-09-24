@@ -114,7 +114,7 @@ export default function Projects() {
                 </a>
               </h3>
 
-              <p className="mt-2 text-sm leading-relaxed text-zinc-600 font-normal">
+              <p className="mt-2 text-[15px] leading-relaxed text-zinc-600 font-normal">
                 {project.description}
               </p>
 

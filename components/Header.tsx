@@ -23,7 +23,7 @@ export default function Header({ activeSection }: HeaderProps) {
         </h2>
 
         {/* Tagline */}
-        <p className="mt-4 max-w-xs text-sm leading-normal text-zinc-600">
+        <p className="mt-4 max-w-xs text-[15px] leading-normal text-zinc-600">
           I build high-performance websites, web apps, and digital experiences
           from the ground up.
         </p>

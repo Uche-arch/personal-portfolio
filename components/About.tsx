@@ -13,7 +13,7 @@ export default function About() {
       </div>
 
       {/* Bio Copy matched to Brittany Chiang's typography scale */}
-      <div className="space-y-4 text-sm font-normal leading-relaxed text-zinc-600">
+      <div className="space-y-4 text-[15px] font-normal leading-relaxed text-zinc-600">
         <p>
           Hi there! I'm Uche, and I like building things that work as good as
           they look. I'm a full-stack engineer who cares about performance,
