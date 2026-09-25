@@ -12,9 +12,25 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "QuickCart",
+    description:
+      "SaaS platform letting small business owners launch a digital storefront in minutes and receive orders straight to WhatsApp (no manual messaging required). Currently powering 15+ active stores with 400+ products listed.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Kinde (Auth)",
+      "MongoDB",
+      "Cloudinary",
+    ],
+    link: "https://quickcartv1.vercel.app/",
+    image: "/projects/quickcart.png",
+    imageAlt: "QuickCart e-commerce storefront preview",
+  },
+  {
     title: "PropNetix",
     description:
-      "Full-stack real estate listing platform that lets landlords and agents list properties, and helps people search and find listings: homes, shops, and vacant spaces, from anywhere. Built to solve a real problem: making property and space discovery simple and accessible instead of relying on word-of-mouth and guesswork.",
+      "Real estate listing platform connecting landlords and agents with people searching for homes, shops, and vacant spaces. Built to replace word-of-mouth property hunting with simple, accessible search.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -25,41 +41,26 @@ const projects: Project[] = [
       "Kinde (Auth)",
     ],
     link: "https://propnetix.vercel.app/",
-    image: "/projects/propnetix.png", // Add your image path here in /public
+    image: "/projects/propnetix.png",
     imageAlt: "PropNetix real estate platform preview",
   },
   {
-    title: "DevAcademy",
+    title: "Phylax360",
     description:
-      "Structured learning platform that teaches frontend development through guided roadmaps instead of scattered tutorials. Covers HTML, CSS, responsive design, Flexbox, and Grid through real-world projects, with progress tracking to help beginners stay consistent and avoid tutorial hell.",
-    tech: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "shadcn/ui",
-      "Kinde (Auth)",
-    ],
-    link: "https://devacademylms.vercel.app/",
-    image: "/projects/devacademy.png",
-    imageAlt: "DevAcademy learning platform preview",
+      "Community crime-mapping app where citizens pin incident locations on an interactive map, giving security agencies real-time visibility to deploy resources where they're needed most.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Leaflet", "MongoDB"],
+    link: "https://phylax360.vercel.app/",
+    image: "/projects/phylax360.png",
+    imageAlt: "Phylax360 crime hotspot mapping platform preview",
   },
   {
     title: "CampusConnect",
     description:
-      "Real-time random video chat app built for university students, inspired by the now-defunct Omegle. Connects users at random for spontaneous conversations with people outside their usual social circle, powered by WebRTC for peer-to-peer video and WebSockets for real-time matching.",
+      "Random video chat app for university students, inspired by Omegle. Matches users for spontaneous conversations outside their usual circle, using WebRTC for peer-to-peer video and WebSockets for real-time matching.",
     tech: ["Next.js", "WebRTC", "Tailwind CSS", "WebSocket", "shadcn/ui"],
     link: "https://vide-chat-app.vercel.app/",
     image: "/projects/campusconnect.png",
     imageAlt: "CampusConnect web app preview",
-  },
-  {
-    title: "Presence-Based Coaching Platform",
-    description:
-      "Brand and marketing site for a presence-based productivity coaching practice, built end-to-end from a custom design system to fully animated, content-driven pages. Focused on translating a specific brand voice into a polished, conversion-ready web presence.",
-    tech: ["Next.js", "Tailwind CSS", "shadcn/ui", "Framer"],
-    link: "https://tpmwebsite.vercel.app/",
-    image: "/projects/presencemethod.png",
-    imageAlt: "Presence-Based Coaching site preview",
   },
 ];
 
